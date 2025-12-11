@@ -6,10 +6,11 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "types": ["node", "playwright"]
+    "types": ["node", "playwright", "@serenity-js/core", "@serenity-js/assertions", "@serenity-js/playwright"]
   },
   "include": [
     "tests/**/*.ts",
-    "playwright.config.ts"
+    "playwright.config.ts",
+    "serenity.setup.ts"
   ]
 }

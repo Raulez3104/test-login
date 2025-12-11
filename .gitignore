@@ -65,6 +65,17 @@ trace/
 
 # Para evitar subir navegadores descargados localmente
 browsers/
+ms-playwright/
+
+# ───────────────────────────────
+# Serenity BDD
+# ───────────────────────────────
+target/
+serenity-report/
+*.json.gz
+
+# Cache de Serenity CLI
+node_modules/@serenity-js/serenity-bdd/cache/
 
 # ───────────────────────────────
 # Coverage

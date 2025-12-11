@@ -1,0 +1,115 @@
+# ───────────────────────────────
+# Node / JavaScript
+# ───────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Binaries
+*.exe
+*.dll
+
+# ───────────────────────────────
+# Build / Dist / Vite
+# ───────────────────────────────
+dist/
+dist-ssr/
+build/
+.vite/
+.esbuild/
+vite.config.local.*
+
+# Vite Hot Reload Cache
+vite.config.ts.timestamp*
+vite.config.mts.timestamp*
+vite.config.js.timestamp*
+
+# ───────────────────────────────
+# Logs
+# ───────────────────────────────
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ───────────────────────────────
+# OS Files
+# ───────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ───────────────────────────────
+# Environment Files
+# ───────────────────────────────
+.env
+.env.*.local
+.env.local
+
+# ───────────────────────────────
+# TypeScript
+# ───────────────────────────────
+*.tsbuildinfo
+
+# ───────────────────────────────
+# Playwright
+# ───────────────────────────────
+playwright-report/
+test-results/
+.playwright/
+blob-report/
+trace/
+
+# Para evitar subir navegadores descargados localmente
+browsers/
+
+# ───────────────────────────────
+# Coverage
+# ───────────────────────────────
+coverage/
+nyc_output/
+
+# ───────────────────────────────
+# IDE / Editors
+# ───────────────────────────────
+.vscode/
+.vscode-test/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ───────────────────────────────
+# Jenkins / CI/CD
+# ───────────────────────────────
+workspace/
+pipeline.log
+jenkins.log
+*.jenkinsfile.backup
+
+# ───────────────────────────────
+# Temp/Cache
+# ───────────────────────────────
+tmp/
+temp/
+.cache/
+*.tmp
+*.temp
+
+# ───────────────────────────────
+# Windows
+# ───────────────────────────────
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ───────────────────────────────
+# Others
+# ───────────────────────────────
+*.local
+*.bak
+*.orig
